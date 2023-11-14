@@ -1,6 +1,6 @@
 <template>
   <p class="text-center demonstration">normal vertical layout</p>
-  <el-carousel height="200px" direction="vertical" :autoplay="false">
+  <el-carousel indicator-position="outside" height="200px" direction="vertical" :autoplay="false">
     <el-carousel-item v-for="item in 4" :key="item">
       <h3 text="2xl" justify="center">{{ item }}</h3>
     </el-carousel-item>
